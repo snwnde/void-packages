@@ -1,6 +1,6 @@
 # Template file for 'gopls'
 pkgname=gopls
-version=0.15.2
+version=0.16.0
 revision=1
 build_wrksrc=gopls
 build_style=go
@@ -10,7 +10,7 @@ maintainer="Bnyro <bnyro@tutanota.com>"
 license="BSD-3-Clause"
 homepage="https://github.com/golang/tools/tree/master/gopls"
 distfiles="https://github.com/golang/tools/archive/refs/tags/gopls/v${version}.tar.gz"
-checksum=cf5b8246b36967eb8fbbed518ea941110cc6bbcc7f42a44bc5a4fe0d7ee61652
+checksum=0775f9769a4dfc54dfaa41182d3725f44a8fd6eaed2568390dde7f5803f931be
 
 post_install() {
 	vlicense ../LICENSE

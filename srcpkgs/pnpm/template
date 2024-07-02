@@ -1,6 +1,6 @@
 # Template file for 'pnpm'
 pkgname=pnpm
-version=9.0.1
+version=9.3.0
 revision=1
 build_style=fetch
 hostmakedepends="nodejs jq"
@@ -10,7 +10,7 @@ maintainer="Bnyro <bnyro@tutanota.com>"
 license="MIT"
 homepage="https://pnpm.io/"
 distfiles="https://registry.npmjs.org/pnpm/-/pnpm-${version}.tgz"
-checksum=46d50ee2afecb42b185ebbd662dc7bdd52ef5be56bf035bb615cab81a75345df
+checksum=e1f9e8d1a16607a46dd3c158b5f7a7dc7945501d1c6222d454d63d033d1d918f
 python_version=3
 
 do_install() {
